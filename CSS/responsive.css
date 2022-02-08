@@ -1,0 +1,66 @@
+@media screen and (max-width: 760px){
+    .navigation{
+        position: relative;
+    }
+    .navigation ul li:hover{
+        padding: 15px;
+        background: var(--brightred);
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+.navigation ul{
+        flex-direction: column;
+        background: var(--darkgrey);
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        text-align: center;
+    }
+    .navigation .logo{
+        margin-left: 20px;
+    }
+    .navigation li.active{
+        background: var(--darkgrey);
+        left: 0;
+        opacity: 1;
+    }
+    .navigation .navItems:hover{
+        border: none;
+        /* background: white; */
+        transition: all 0.3s ease-out;
+    }
+    .navigation .navItems:hover{
+        color: var(--darkgrey)
+    }
+    .navigation .navBtn{
+        background: none;
+        border: none;
+    }
+    .navigation .navBtn:hover{
+        color: var(--darkgrey);
+    }
+    .navigation .menutoggle{
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        width: 35px;
+        height: 5px;
+        transform: translate(15%, 20%);
+    }
+    .navigation .bar{
+        display: block;
+    }
+    .menutoggle.active .bar:nth-child(2){
+        opacity: 0;
+    } 
+    .menutoggle.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    } 
+    .menutoggle.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    } 
+    .navMenu{
+        transition: all 1s ease-in-out;
+    }
+}
