@@ -13,6 +13,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    align-items: center;
     grid-gap: 50px;
     width: 80%;
     margin: 0 auto;
