@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px){
+    #outerContainer{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    #outerContainer  p{
+        font-size: 1.5rem;
+        margin: 20px auto;
+    }
+    #outerContainer  h1{
+        margin-top: 2rem;
+        font-size: 2.4rem;
+    }
+    #mainimg{
+        display: none;
+    }
+    .bodyBtn a{
+        font-size: 1.5rem;
+    }
+    .bodyBtn{
+        padding: 10px 40px;
+    }
+}
